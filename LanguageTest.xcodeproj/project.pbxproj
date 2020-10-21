@@ -13,6 +13,10 @@
 		AB86831C253ECC27009337BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB86831A253ECC27009337BF /* Main.storyboard */; };
 		AB86831E253ECC28009337BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB86831D253ECC28009337BF /* Assets.xcassets */; };
 		AB868321253ECC28009337BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB86831F253ECC28009337BF /* LaunchScreen.storyboard */; };
+		AB868331253ED599009337BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB86832F253ED599009337BF /* Localizable.strings */; };
+		AB868336253ED61F009337BF /* Sometext.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB868338253ED61F009337BF /* Sometext.strings */; };
+		AB86833E253ED71E009337BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB86833C253ED71E009337BF /* InfoPlist.strings */; };
+		AB868345253EDDF1009337BF /* frogIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB868347253EDDF1009337BF /* frogIcon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,18 @@
 		AB86831D253ECC28009337BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB868320253ECC28009337BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB868322253ECC28009337BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB868329253ECEA7009337BF /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		AB86832A253ECEA7009337BF /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AB86832C253ED120009337BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		AB86832D253ED120009337BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AB868330253ED599009337BF /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AB868337253ED61F009337BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Sometext.strings; sourceTree = "<group>"; };
+		AB86833A253ED675009337BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AB86833D253ED71E009337BF /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB868340253ED785009337BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB868346253EDDF1009337BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/frogIcon.jpg; sourceTree = "<group>"; };
+		AB868349253EDDF6009337BF /* es */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = es; path = es.lproj/frogIcon.jpg; sourceTree = "<group>"; };
+		AB86834A253EDDF8009337BF /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sv; path = sv.lproj/frogIcon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		AB868313253ECC27009337BF /* LanguageTest */ = {
 			isa = PBXGroup;
 			children = (
+				AB868347253EDDF1009337BF /* frogIcon.jpg */,
 				AB868314253ECC27009337BF /* AppDelegate.swift */,
 				AB868316253ECC27009337BF /* SceneDelegate.swift */,
 				AB868318253ECC27009337BF /* ViewController.swift */,
@@ -63,6 +80,9 @@
 				AB86831D253ECC28009337BF /* Assets.xcassets */,
 				AB86831F253ECC28009337BF /* LaunchScreen.storyboard */,
 				AB868322253ECC28009337BF /* Info.plist */,
+				AB86833C253ED71E009337BF /* InfoPlist.strings */,
+				AB86832F253ED599009337BF /* Localizable.strings */,
+				AB868338253ED61F009337BF /* Sometext.strings */,
 			);
 			path = LanguageTest;
 			sourceTree = "<group>";
@@ -108,6 +128,8 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
+				es,
 			);
 			mainGroup = AB868308253ECC27009337BF;
 			productRefGroup = AB868312253ECC27009337BF /* Products */;
@@ -124,9 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB868345253EDDF1009337BF /* frogIcon.jpg in Resources */,
 				AB868321253ECC28009337BF /* LaunchScreen.storyboard in Resources */,
+				AB86833E253ED71E009337BF /* InfoPlist.strings in Resources */,
+				AB868331253ED599009337BF /* Localizable.strings in Resources */,
 				AB86831E253ECC28009337BF /* Assets.xcassets in Resources */,
 				AB86831C253ECC27009337BF /* Main.storyboard in Resources */,
+				AB868336253ED61F009337BF /* Sometext.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +176,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				AB86831B253ECC27009337BF /* Base */,
+				AB868329253ECEA7009337BF /* sv */,
+				AB86832C253ED120009337BF /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -158,8 +186,46 @@
 			isa = PBXVariantGroup;
 			children = (
 				AB868320253ECC28009337BF /* Base */,
+				AB86832A253ECEA7009337BF /* sv */,
+				AB86832D253ED120009337BF /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AB86832F253ED599009337BF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB868330253ED599009337BF /* sv */,
+				AB86833A253ED675009337BF /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AB868338253ED61F009337BF /* Sometext.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB868337253ED61F009337BF /* es */,
+			);
+			name = Sometext.strings;
+			sourceTree = "<group>";
+		};
+		AB86833C253ED71E009337BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB86833D253ED71E009337BF /* sv */,
+				AB868340253ED785009337BF /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB868347253EDDF1009337BF /* frogIcon.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB868346253EDDF1009337BF /* Base */,
+				AB868349253EDDF6009337BF /* es */,
+				AB86834A253EDDF8009337BF /* sv */,
+			);
+			name = frogIcon.jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -169,6 +235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
